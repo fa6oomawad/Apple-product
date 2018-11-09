@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<!-- fontawesome -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style type="text/css">
+
+	
+
+#header{
+	 position: fixed;
+  right: 0;
+  left:0;
+       z-index: 1;
+}
+
+
+.navbar-nav a {
+	color: white;
+	margin-right: 10px;
+}
+.nav-item a:hover {
+	color:red;
+}
+.container form {
+	max-width: 700px;
+	margin-top: 30px;
+	margin:0 auto;
+}
+.container form #email {
+		padding-left: 30px;
+margin-left:30px;
+border-style: solid;
+border-radius: 10px;
+}
+.container form #submit {
+	margin-top: 5px;
+	margin-left:80px;
+	border-radius: 8px;
+}
+.container form p {
+	font-size: 30px;
+font-weight: bold;
+margin-top: 80px;
+}
+#features {
+			margin:0 auto;
+
+	margin-top: 80px;
+}
+#features p {
+		margin:0 auto;
+
+	text-align: left;
+
+	}
+	#features h3 {
+		font-size: 30px;
+font-weight: bold;
+	}
+
+#video{
+	max-width: 600px;
+	margin:0 auto;
+	margin-bottom: 70px;
+
+}
+#pricing {
+	border-style: solid;
+    border-width: 5px;
+    margin:0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#pricing h2 {
+	background-color: grey;
+}
+
+
+
+	</style>
+
+</head>
+
+
+
+
+<body>
+<header id=header>
+	<nav id="nav-bar" class="navbar navbar-expand-sm  " style="background-color: black;">
+		<a class="navbar-brand" href="#">
+				<img src="img/icon.png" id="header-img" style="width:50px; height:50px;">
+             <strong style="color: white;">Apple</strong>
+             </a>
+
+<!-- Links -->
+  <ul class="navbar-nav ml-auto" >
+    <li class="nav-item">
+      <a class="nav-link" href="#features">Features</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#video">Video</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#pricing">Pricing</a>
+    </li>
+  </ul>
+
+
+
+     </nav>
+</header>
+
+
+
+<!--- get started -->
+<div class="container">
+	<div class="row">
+		<form id="form" action="https://www.freecodecamp.com/email-submit">
+	<p>
+	Brilliant. In every way.
+</p>
+	<input type="email" id="email" name="email" placeholder="Enter your email address!"><br>
+	<br>
+	<input id="submit" type="submit" name="submit" value="Get started">
+</form>
+	</div>
+
+	<div id="features" >
+	<div class="row">
+		<div class="col-md-4">
+			<img src="img/1.jpg" style=" max-height: 80%;
+    max-width: 80%; 
+">
+		</div>
+		<div class="col-md-8" style="padding-top: 40px;">
+			<h3>Seven-layer color process.</h3>
+			<p>The beautiful finishes of the back glass are achieved using an advanced process that allows for deep, rich colors.</p>
+		</div>
+
+	</div>
+
+
+	<div class="row">
+		<div class="col-md-4">
+			<img src="img/2.jpg" style=" max-height: 80%; max-width: 80%;">
+		</div>
+		<div class="col-md-8">
+			<h3>Aerospace-grade aluminum bands.</h3>
+			<p>	A special Apple-designed alloy is precision-machined to create structural bands, and anodized to complement the color of the back glass.</p>
+		</div>
+
+	</div>
+
+
+	<div class="row">
+		<div class="col-md-4">
+			<img src="img/3.jpg" style=" max-height: 80%;
+    max-width: 80%;">
+		</div>
+		<div class="col-md-8">
+			<h3>Wireless charging.</h3>
+			<p>The glass back allows iPhone XR to charge easily and wirelessly.3</p>
+		</div>
+
+	</div>
+	</div>
+
+	<div class="row" >
+		 <iframe   id="video" width="420" height="315"
+src="https://www.youtube.com/watch?v=ZLmtFRgjaPU">
+</iframe> 
+
+	</div>
+
+	<div class="row" >
+		<div class="col-md-4" id="pricing" >
+			<h4>Apple iPhone X GSM Unlocked</h4>
+			<p>
+			 <li>size: 256GB</li>
+			<li>5.8-inch SuperRetina screen </li>
+			<li>12MP wide-angle and telephoto cameras</li>
+			<li><strong>Price: up to 940$ </strong></li>
+			<br>
+			<input type="button" name="SELECT" value="SELECT" style="display: block; margin: 0 auto; margin-top: 30px;">
+			 </p>
+		</div>
+			<div class="col-md-4" id="pricing">
+			<h4>Apple iPhone X AT&T locked</h4>
+			<p>
+			 <li>size: 256GB or 64GB</li>
+			<li>5.8-inch SuperRetina screen </li>
+			<li>This phone is locked to AT&T and can only be used on the AT&T network. </li>
+			<li><strong>Price: up to 700$</strong></li>
+			<br>
+			<input type="button" name="SELECT" value="SELECT" style="display: block; margin: 0 auto;">
+			 </p>
+		</div>
+			
+
+	</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+</body>
+</html>
